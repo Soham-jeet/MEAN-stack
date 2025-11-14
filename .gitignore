@@ -1,0 +1,74 @@
+###############################
+# GLOBAL IGNORES (for both)
+###############################
+
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+
+###############################
+# ANGULAR / CLIENT IGNORES
+###############################
+
+# Angular build outputs
+client/dist/
+client/.angular/
+client/.angular/cache/
+client/.angular/*
+
+# Angular local config
+client/.browserlistrc
+client/.firebase/
+client/firebase-debug.log
+
+# VSCode inside client
+client/.vscode/
+
+
+###############################
+# NODE / SERVER IGNORES
+###############################
+
+# Node build outputs
+server/dist/
+server/build/
+server/temp/
+server/.cache/
+
+# Server environment configs
+server/.env
+server/.env.local
+
+# Log files inside server
+server/*.log
+server/logs/
+
+
+###############################
+# OTHER EDITOR / TOOLING
+###############################
+
+*.swp
+*.swo
+*.tmp
+
+# TypeScript build cache
+*.tsbuildinfo
+
